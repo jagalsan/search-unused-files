@@ -1,6 +1,9 @@
 # 💻 Search unused files
 This Node.js script is designed for identifying unused files of a specified extension within a project. Its functionality is outlined as follows:
 
+## 0. Use example
+`node search-unused-files.js --extension-svg --edfns-node_modules,coverage,dist,_old.storybook,emulator-data,system --edfcs-node_modules,coverage,dist,_old.storybook,emulator-data,system --project-directory-./`
+
 ## 1. Configuration via Command-Line Arguments:
 
 - --project-directory-: Sets the root directory of the project to be scanned.
