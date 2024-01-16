@@ -3,9 +3,10 @@ This Node.js script is designed for identifying unused files of a specified exte
 
 ## 1. Configuration via Command-Line Arguments:
 
---extension-: Sets the file extension to be checked (e.g., .js, .css).
---edfns-: Specifies directories to exclude from the file name search.
---edfcs-: Specifies directories to exclude from the file content search.
+- --project-directory-: Sets the root directory of the project to be scanned.
+- --extension-: Sets the file extension to be checked (e.g., .js, .css).
+- --edfns-: Specifies directories to exclude from the file name search.
+- --edfcs-: Specifies directories to exclude from the file content search.
 
 ## 2. File Search Process:
 
